@@ -85,6 +85,7 @@ searchInput.addEventListener('input', () => {
 airlineList.addEventListener('change', () => {
   updateProbabilityDisplay();
   resetCustomProbability();
+  collapseAirlineList();
 });
 
 useCustomProbBtn.addEventListener('click', () => {
